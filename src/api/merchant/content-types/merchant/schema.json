@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "merchants",
+  "info": {
+    "singularName": "merchant",
+    "pluralName": "merchants",
+    "displayName": "Merchant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "biginteger"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Shop": {
+      "type": "text"
+    }
+  }
+}

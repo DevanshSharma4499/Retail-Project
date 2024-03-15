@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "productid": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "stars": {
+      "type": "biginteger"
+    },
+    "username": {
+      "type": "string"
+    }
+  }
+}
